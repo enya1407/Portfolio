@@ -1,0 +1,35 @@
+
+.wrapper {
+    color: #ECEFF1;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+    flex-wrap: wrap;
+}
+
+.block_with_information {
+    margin-top: 20px;
+    background-color: #ffffff3b;
+    padding: 30px;
+    width: 600px;
+    border: solid #1890ff 1px;
+}
+
+.block_with_information__wide {
+    margin: 20px 0;
+    background-color: #ffffff3b;
+    padding: 30px;
+    width: 900px;
+    border: solid #1890ff 1px;
+}
+
+.heading {
+    color: white;
+    font-size: 26px
+}
+
+.item {
+    text-align: left;
+    font-size: 16px
+}

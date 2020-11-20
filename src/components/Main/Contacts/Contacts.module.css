@@ -1,0 +1,29 @@
+.wrapper {
+    color: #ECEFF1;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    min-height: 100%;
+    flex-wrap: wrap;
+}
+
+.contacts {
+    margin-top: 120px;
+    background-color: #ffffff3b;
+    padding: 30px;
+    width: 500px;
+    height: 300px;
+    border: solid #1890ff 1px;
+}
+
+.heading {
+    color: white;
+    font-size: 26px
+}
+
+.link {
+    color: white;
+    font-size: 14px;
+    margin-left: 10px
+
+}
