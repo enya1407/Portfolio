@@ -1,0 +1,39 @@
+@font-face {
+    font-family: RetroVille; /* Имя шрифта */
+    src: url('/src/assets/fonts/RetroVilleNC.ttf'); /* Путь к файлу со шрифтом */
+}
+
+.modal__window {
+    font-family: RetroVille;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+
+
+.modal__container {
+    font-size: 10px;
+
+}
+
+.img__container {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.img {
+    border: solid #1890ff 1px;
+    padding: 4px;
+}
+
+.button__container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.description {
+    padding: 10px;
+}
