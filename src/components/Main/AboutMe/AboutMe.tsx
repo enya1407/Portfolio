@@ -2,7 +2,7 @@ import React from 'react';
 import styles from "./AboutMe.module.css";
 
 const AboutMe = () => {
-    const skillsArray = ["HTML", "CSS", "Java Script", "React", "Redux", "Type Script", "Git"]
+    const skillsArray = ["HTML", "CSS", "Java Script", "React", "Redux", "Type Script", "Git", "Webpack"]
     const aboutMeDataArray =
         ["Full name: Evgeniya Ivanova", "Date of birth: 14.07.1994", "Location: Dzyarzhynsk, Minsk Voblast",
             "Education: Mogilev State A.Kuleshov University, journalism (unfinished)"]

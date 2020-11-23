@@ -1,9 +1,11 @@
 @import '~antd/dist/antd.css';
 
+
 @font-face {
-    font-family: RetroVille; /* Имя шрифта */
-    src: url('/src/assets/fonts/RetroVilleNC.ttf'); /* Путь к файлу со шрифтом */
+    font-family: Fulbo-Argenta; /* Имя шрифта */
+    src: url('/src/assets/fonts/Fulbo-Argenta.otf'); /* Путь к файлу со шрифтом */
 }
+
 
 .App {
     text-align: center;
@@ -12,7 +14,7 @@
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    font-family: RetroVille;
+    font-family: Fulbo-Argenta;
 }
 
 

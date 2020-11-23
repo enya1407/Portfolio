@@ -31,5 +31,7 @@
 
 .item {
     text-align: left;
-    font-size: 16px
+    font-size: 16px;
+    font-family: Quicksand-SemiBold;
+    text-transform: none;
 }

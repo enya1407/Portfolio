@@ -1,8 +1,3 @@
-@font-face {
-    font-family: RetroVille; /* Имя шрифта */
-    src: url('/src/assets/fonts/RetroVilleNC.ttf'); /* Путь к файлу со шрифтом */
-}
-
 
 .footer {
     background-color: #ffffff3b;
@@ -15,7 +10,6 @@
 .name, .link {
     color: white;
     margin: 10px;
-    font-family: RetroVille;
     font-size: 14px
 }
 

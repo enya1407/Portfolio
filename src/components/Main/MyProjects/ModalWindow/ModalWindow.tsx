@@ -20,7 +20,7 @@ const ModalWindow = () => {
         <Drawer
             className={styles.modal__window}
             title={data.name}
-            width={650}
+            width="50%"
             placement="right"
             closable={false}
             onClose={handleCancel}
@@ -45,8 +45,23 @@ const ModalWindow = () => {
                         </a>
                     </div>
                 </div>
-                <Divider/>
-                <p>{data.description}</p>
+                <Divider style={{margin: 10}}/>
+                <div className={styles.text}>
+                    <ul className={styles.list}>
+                        {data.text.stack.map((el, i) => (
+                            <li className={styles.item} key={i}>{el}</li>
+                        ))}
+                    </ul>
+
+                    <div className={styles.description__container}>
+                        <p className={styles.description__header}>{data.text.headerDescription}</p>
+                        <ul className={styles.description}>
+                            {data.text.description.map((el, i) => (
+                                <li className={styles.item__description} key={i}>{el}</li>
+                            ))}
+                        </ul>
+                    </div>
+                </div>
             </div>
         </Drawer>
     );

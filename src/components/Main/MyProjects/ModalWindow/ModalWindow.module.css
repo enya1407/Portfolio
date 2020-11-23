@@ -1,10 +1,11 @@
 @font-face {
-    font-family: RetroVille; /* Имя шрифта */
-    src: url('/src/assets/fonts/RetroVilleNC.ttf'); /* Путь к файлу со шрифтом */
+    font-family: Fulbo-Argenta; /* Имя шрифта */
+    src: url('/src/assets/fonts/Fulbo-Argenta.otf'); /* Путь к файлу со шрифтом */
 }
 
+
 .modal__window {
-    font-family: RetroVille;
+    font-family: Fulbo-Argenta;
     text-align: center;
     text-transform: uppercase;
 
@@ -23,7 +24,6 @@
 }
 
 .img {
-    border: solid #1890ff 1px;
     padding: 4px;
 }
 
@@ -34,6 +34,41 @@
     justify-content: space-evenly;
 }
 
-.description {
+.text {
+    display: flex;
+}
+
+.list {
+    padding: 0;
+    border-right: 1px solid rgba(0, 0, 0, 0.06);
     padding: 10px;
+    padding-top: 47px;
+}
+
+.item {
+    font-size: 12px;
+    text-align: left;
+    color: #1890ff;
+}
+
+.description__container {
+    padding-left: 5px;
+    text-align: left;
+}
+
+.description__header {
+    font-size: 16px;
+    text-align: center;
+    color: #1890ff;
+    margin: 0;
+}
+
+.item__description {
+    font-size: 12px;
+    text-transform: none;
+}
+
+.description {
+    list-style: none;
+    padding: 5px;
 }
