@@ -1,7 +1,11 @@
+.container {
+    background-color: #ffffff3b;
+}
 
 .header {
-    background-color: #ffffff3b;
-    color: white;
+    margin: 0 auto;
+    max-width: 1650px;
+    background-color: initial;
     padding: 5px 100px;
 }
 

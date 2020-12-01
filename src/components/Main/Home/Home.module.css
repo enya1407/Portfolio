@@ -5,10 +5,11 @@
     justify-content: space-evenly;
     align-items: center;
     height: 100%;
+    margin: auto;
 }
 
 .description {
-    margin-top: 20px;
+    margin-left: 100px;
     background-color: #ffffff3b;
     padding: 30px;
     border: solid #1890ff 1px;

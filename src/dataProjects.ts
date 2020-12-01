@@ -29,6 +29,7 @@ export const dataProjects = [
                 "TypeScript",
                 "React",
                 "Redux",
+                "Redux-thunk",
                 "antd"],
             headerDescription: "Interactive table using React & Redux.",
             description: ["Technical task:", "Sorting by one column",
@@ -214,8 +215,21 @@ export const dataProjects = [
                 headerDescription:
                     "Single page application application for learning English words",
                 description:
-                    ["Technical task:",
-
+                    ["Technical task:", "The minimum width at which the application is displayed correctly is 320 px",
+                        " Switching between training mode and game mode occurs by clicking on the Train / Play switch.",
+                        "There is a pull-down menu with links to all word categories",
+                        "The progress of the training is recorded in the statistics, the statistics can be reset.",
+                        "The main page of the application contains links to pages with categories of words, the category page contains the category name and cards with words of the corresponding topic.",
+                        "In training mode:",
+                        "When you click on the card, the pronunciation of the word in English sounds.",
+                        " Each card has a button, when clicked on which the card rotates, the translation of the word is indicated on the reverse side.",
+                        " In game mode:",
+                        " The button and the text on the card are hidden.",
+                        'After clicking on the "Start game" button, the English pronunciation of a random word from those on the page sounds.',
+                        "For a correct and incorrect answer, different sound signals sound, a filled or empty asterisk appears.",
+                        " Until the correct answer is given, the word does not change.",
+                        "If the answer is correct, the word changes, the card becomes inactive.",
+                        "When all the words in the category are guessed, depending on whether mistakes were made, a different sound signal sounds, a different picture appears."
                     ]
             }
         ,
@@ -229,10 +243,8 @@ export const dataProjects = [
         id: 6,
         name:
             "virtual keyboard",
-        svg:
-        svg6,
-        screenshot:
-        screenshot6,
+        svg: svg6,
+        screenshot: screenshot6,
         text:
             {
                 stack: [
@@ -240,9 +252,18 @@ export const dataProjects = [
                     "CSS",
                     "JavaScript"],
                 headerDescription:
-                    "Simple virtual keyboard supporting two languages\"",
+                    "Simple virtual keyboard supporting two languages",
                 description:
                     ["Technical task:",
+                        "Pressing a button on the physical keyboard should highlight the pressed button on the virtual keyboard,",
+                        " If several buttons are pressed, all pressed buttons are highlighted.",
+                        "The virtual keyboard can switch between Russian and English layouts, while the symbols of the selected language are displayed on the buttons",
+                        "The selected language is retained after reloading the page.",
+                        "Clicks on the buttons with the mouse on the virtual keyboard and pressing the buttons on the physical keyboard display characters in the input.",
+                        "Pressing the down-up-left-right arrows realizes the navigation by input.",
+                        "Pressing enter should perform a carriage return, tab creates a horizontal indent.",
+                        "Backspace deletes the character before the cursor, del deletes the character after the cursor.",
+                        "The remaining shift, alt, ctrl, caps lock, space should work like in a real keyboard."
                     ]
             }
         ,
@@ -265,12 +286,27 @@ export const dataProjects = [
                 stack: [
                     "HTML",
                     "CSS",
-                    "JavaScript"],
+                    "JavaScript",
+                    "figma"],
                 headerDescription:
                     "Responsive landing page made for pseudo company.",
                 description:
                     ["Technical task:",
-
+                        "The minimum width at which the application is displayed correctly is 320 px",
+                        '"Pixel Perfect" layout based on figma layout.',
+                        "Header:",
+                        "Switching by anchors with smooth animation.",
+                        "When scrolling, the current menu item is highlighted.",
+                        "Slider:",
+                        "When you press the buttons, the image changes smoothly.",
+                        "Slider is written without using any third party libraries.",
+                        'When you press the phone, the screen "turns off"',
+                        "Portfolio:",
+                        "When switching tabs at the top of the block, the new tab should become active.",
+                        "The pictures below should change their positions.",
+                        "Forms:",
+                        'When you click "send", if a valid name and email are entered, a modal window appears with the entered text.',
+                        "The form is not being submitted."
                     ]
             }
         ,

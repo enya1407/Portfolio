@@ -10,7 +10,7 @@ const Home = () => {
                 Evgeniya Ivanova
             </p>
                 <p className={styles.position}>
-                    Junior frontent developer
+                    Frontend Developer / React Developer
                 </p></div>
         </div>
 

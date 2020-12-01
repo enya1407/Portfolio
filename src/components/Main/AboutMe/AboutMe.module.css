@@ -6,20 +6,21 @@
     align-items: center;
     height: 100%;
     flex-wrap: wrap;
+    margin: auto;
 }
 
 .block_with_information {
-    margin-top: 20px;
+    margin-top: 40px;
     background-color: #ffffff3b;
-    padding: 30px;
+    padding: 10px 20px;
     width: 600px;
     border: solid #1890ff 1px;
 }
 
 .block_with_information__wide {
-    margin: 20px 0;
+    margin: 40px 0;
     background-color: #ffffff3b;
-    padding: 30px;
+    padding: 20px;
     width: 900px;
     border: solid #1890ff 1px;
 }

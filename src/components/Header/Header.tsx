@@ -17,7 +17,7 @@ const Header = () => {
         </NavLink>
     ));
     return (
-        <div>
+        <div className={styles.container}>
             <PageHeader ghost={false}
                         onBack={() => window.history.back()}
                         title="Back"
