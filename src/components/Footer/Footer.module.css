@@ -1,20 +1,24 @@
-
 .footer {
-    background-color: #ffffff3b;
-    color: white;
-    flex: 0 0 auto;
-    display: flex;
-    justify-content: center;
+  background-color: #ffffff3b;
+  color: white;
+  flex: 0 0 auto;
+  display: flex;
+  justify-content: center;
 }
 
-.name, .link {
-    color: white;
-    margin: 10px;
-    font-size: 14px
+.name,
+.link {
+  color: white;
+  margin: 10px;
+  font-size: 14px;
 }
 
 .icon {
-    font-size: large;
+  font-size: large;
 }
-
-
+@media (max-width: 500px) {
+  .name,
+  .link {
+    font-size: 9px;
+  }
+}

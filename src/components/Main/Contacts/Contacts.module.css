@@ -1,28 +1,33 @@
 .wrapper {
-    color: #ECEFF1;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    min-height: 100%;
-    flex-wrap: wrap;
+  color: #eceff1;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  min-height: 100%;
+  flex-wrap: wrap;
 }
 
 .contacts {
-    background-color: #ffffff3b;
-    padding: 30px;
-    width: 500px;
-    height: 300px;
-    border: solid #1890ff 1px;
+  background-color: #ffffff3b;
+  padding: 30px;
+  width: 500px;
+  height: 300px;
+  border: solid #1890ff 1px;
 }
 
 .heading {
-    color: white;
-    font-size: 26px
+  color: white;
+  font-size: 26px;
 }
 
 .link {
-    color: white;
-    font-size: 14px;
-    margin-left: 10px;
-    text-transform: none;
+  color: white;
+  font-size: 14px;
+  margin-left: 10px;
+  text-transform: none;
+}
+@media (max-width: 550px) {
+  .contacts {
+    width: 300px;
+  }
 }
